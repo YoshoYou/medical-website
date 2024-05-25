@@ -1,0 +1,45 @@
+/* the variables that are used in the code with placeholder*/
+$pink:rgb(222, 35, 119);
+$pink-1:rgb(237, 112, 133);
+$white:white !important;
+$gray-100:rgba(217, 212, 212, 0.906) !important;
+$box-shadow: -1px -1px 13px 0px rgb(0 0 0 / 57%);
+
+
+.show1 {
+    display: block !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block ;
+}
+.ho {
+    color: $gray-100;
+}
+%main-decoration {
+        color: $white;
+        position: relative;
+        background-color: $pink;
+        padding:5px 15px 20px ;
+        border-top-left-radius: 8%;
+        border-top-right-radius: 8%;
+        text-decoration: none;
+        font-size: 18px;
+}
+%main-hover {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255,0.5);
+        z-index: 1;
+}
+
+
+
+/* ending the variables */
+

@@ -1,0 +1,443 @@
+/* the variables that are used in the code with placeholder*/
+.show1 {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block;
+}
+
+.ho {
+  color: rgba(217, 212, 212, 0.906) !important;
+}
+
+.navbar .fir, .navbar .sec {
+  color: white !important;
+  position: relative;
+  background-color: rgb(222, 35, 119);
+  padding: 5px 15px 20px;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section .side .image-1:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+/* ending the variables */
+body {
+  margin: 0;
+}
+
+/* start the navbar section with the media */
+.navbar {
+  position: relative;
+  font-weight: bold;
+  background-color: rgba(217, 212, 212, 0.906) !important;
+  height: 56px;
+  box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.57);
+}
+.navbar .fir {
+  left: 120px;
+}
+.navbar .fir:hover {
+  color: rgba(217, 212, 212, 0.906) !important;
+}
+.navbar .sec {
+  background-color: rgb(237, 112, 133);
+  left: 125px;
+}
+.navbar .sec:hover {
+  color: rgba(217, 212, 212, 0.906) !important;
+}
+.navbar .I {
+  top: 10px;
+  font-size: 100px;
+  color: white !important;
+  z-index: 4;
+}
+.navbar .second {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  display: block;
+  cursor: pointer;
+  transform: translateY(50%);
+  transition: 0.8s;
+}
+.navbar .second:hover span:first-child {
+  background-color: rgb(237, 112, 133);
+}
+.navbar .second:hover span:nth-child(2) {
+  background-color: rgb(237, 112, 133);
+}
+.navbar .second:hover span:last-child {
+  background-color: rgb(237, 112, 133);
+}
+.navbar .second span:first-child {
+  position: absolute;
+  background-color: rgb(222, 35, 119);
+  width: 100%;
+  height: 3px;
+}
+.navbar .second span:nth-child(2) {
+  position: absolute;
+  background-color: rgb(222, 35, 119);
+  width: 100%;
+  height: 3px;
+  margin-top: 7px;
+}
+.navbar .second span:last-child {
+  position: absolute;
+  background-color: rgb(222, 35, 119);
+  width: 100%;
+  height: 3px;
+  margin-top: 14px;
+}
+.navbar .beneth {
+  background-color: rgb(222, 35, 119);
+  font-size: 19px;
+  color: white;
+  z-index: 3;
+  width: 100%;
+  box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.57);
+}
+.navbar .beneth .row div {
+  cursor: pointer;
+}
+.navbar .beneth .row div:hover {
+  color: rgb(237, 112, 133);
+}
+.navbar .beneth .sec-nav {
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media (max-width: 767px) {
+  .navbar .beneth {
+    display: none;
+  }
+  .navbar .I {
+    color: rgb(222, 35, 119) !important;
+  }
+  .navbar .fir {
+    left: 76px !important;
+    font-size: 15px !important;
+    bottom: -6px !important;
+  }
+  .navbar .sec {
+    left: 74px !important;
+    font-size: 15px !important;
+    bottom: -6px !important;
+  }
+  .navbar .fa-midkit {
+    display: block;
+  }
+  .navbar .navbar .second {
+    display: block;
+    bottom: -80px;
+  }
+}
+.navbar .I2 {
+  bottom: -40px;
+}
+
+.s2 {
+  position: relative;
+  display: none;
+  width: 90%;
+  text-decoration: none;
+  list-style: none !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 70px;
+  transition: 0.3s;
+  z-index: 4;
+  color: white;
+  top: 20px;
+}
+.s2 li {
+  width: 100%;
+  background-color: rgb(237, 112, 133);
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+.s2 li:hover {
+  background-color: rgb(222, 35, 119);
+}
+
+@media (max-width: 440px) {
+  .navbar .first {
+    display: none;
+  }
+  .navbar .second {
+    left: 90%;
+  }
+}
+@media (min-width: 768px) {
+  .navbar .second {
+    display: none;
+  }
+}
+/* end the navbar section */
+/* start section 1 */
+section {
+  margin-top: 20px;
+}
+section img {
+  width: 50%;
+  height: 400px;
+  margin: 150px 20px 30px 20px;
+}
+@media (max-width: 900px) {
+  section .img .first {
+    display: none;
+  }
+}
+section .side {
+  width: 50%;
+  margin-top: 150px;
+}
+section .side .btn {
+  width: 120px;
+  height: 50px;
+  margin-top: 0;
+  margin-left: 0;
+  background-color: rgb(222, 35, 119);
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  cursor: pointer;
+}
+section .side .btn:hover {
+  color: rgb(237, 112, 133);
+}
+section .side .image-1 {
+  background-color: rgba(217, 212, 212, 0.906) !important;
+  position: relative;
+  cursor: pointer;
+}
+section .side .image-1 img {
+  width: 200px;
+  height: 150px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  section .side .image-1 p {
+    width: 100%;
+  }
+}
+section .side .image-1:hover {
+  box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.57);
+}
+section .side .image-1:hover img, section .side .image-1:hover p {
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  section .side {
+    width: 100%;
+  }
+  .side p {
+    width: 50%;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 900px) {
+  section .img {
+    margin: 20px 40px;
+  }
+}
+@media (min-width: 900px) {
+  .side span {
+    display: none;
+  }
+}
+/*ending the section */
+/*start landing */
+.landing {
+  background-color: rgba(217, 212, 212, 0.906) !important;
+  padding: 15px;
+}
+.landing h2 {
+  padding: 20px;
+  color: rgb(222, 35, 119);
+}
+.landing .img2 {
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
+.landing .img2 p {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(85, 84, 84);
+}
+.landing .img2:hover {
+  box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.57);
+}
+.landing .img2:hover img {
+  z-index: 12;
+}
+.landing .content {
+  cursor: pointer;
+}
+.landing .content:hover {
+  box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.57);
+}
+
+@media (max-width: 991px) {
+  .landing .test {
+    flex-direction: column;
+  }
+}
+/*  ending landing  */
+/*start letter */
+.let {
+  background-color: rgb(222, 35, 119);
+  color: white;
+}
+.let .ch1:hover + label, .let .ch1:checked + label,
+.let .ch2:hover + label, .let .ch2:checked + label,
+.let .ch3:hover + label, .let .ch3:checked + label {
+  color: black;
+  cursor: pointer;
+}
+.let .sub {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+.let .su {
+  background-color: white;
+  border: none;
+}
+.let .su:hover {
+  background-color: rgb(237, 112, 133);
+}
+.let .su:hover .sub {
+  background-color: rgb(237, 112, 133);
+  color: white;
+}
+.let .l {
+  position: relative;
+}
+.let .k {
+  position: absolute;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.let h4 {
+  cursor: pointer;
+}
+.let h4:hover {
+  color: rgb(237, 112, 133);
+}
+.let input[type=email] {
+  border: none;
+  caret-color: rgb(222, 35, 119);
+}
+.let input[type=email]:hover, .let input[type=email]:focus {
+  box-shadow: none;
+}
+@media (max-width: 767px) {
+  .let .l {
+    display: none;
+  }
+  .let form {
+    width: 100%;
+  }
+}
+
+/* ending letter */
+/*start topics section */
+.topics {
+  background-color: rgba(217, 212, 212, 0.906) !important;
+  padding: 15px;
+}
+.topics .h2 {
+  color: rgb(222, 35, 119);
+  padding: 15px;
+}
+.topics .btn {
+  background-color: rgb(237, 112, 133);
+}
+
+/*ending topics section */
+/* start footer */
+.footer {
+  background-color: rgb(237, 112, 133);
+  position: relative;
+  color: black;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(222, 35, 119);
+}
+.footer .nav .nav-link {
+  font-weight: bold;
+  color: black;
+  background-color: rgb(237, 112, 133);
+  position: relative;
+  font-size: 17px;
+}
+.footer .nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: rgb(222, 35, 119);
+  transition: 0.3s;
+}
+.footer .nav .nav-link:hover {
+  color: rgb(79, 74, 74);
+}
+.footer .nav .nav-link:hover::after {
+  width: 100%;
+}
+.footer .list {
+  padding: 20px 10px !important;
+  margin-top: 20px !important;
+}
+.footer .two :hover {
+  color: rgb(79, 74, 74);
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .footer .two {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* ending footer *//*# sourceMappingURL=main.css.map */
